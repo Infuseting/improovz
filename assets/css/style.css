@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+.island-moments-regular {
+  font-family: "Island Moments", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes swipe-right {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.btn.swipe-right:hover {
+  animation: swipe-right 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+
+.btn.swipe-white {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.35s;
+}
+.btn.swipe-white span {
+  position: relative;
+  z-index: 2;
+}
+.btn.swipe-white:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 0; height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: width 0.35s;
+  pointer-events: none;
+}
+.btn.swipe-white:hover {
+  color: #008AFF !important;
+  z-index: 2;
+  position: relative;
+}
+.btn.swipe-white:hover:after {
+  width: 100%;
+}
+
+.btn.swipe-blue {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.35s;
+}
+.btn.swipe-blue span {
+  position: relative;
+  z-index: 2;
+}
+.btn.swipe-blue:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 0; height: 100%;
+  background: #008AFF;
+  z-index: 1;
+  transition: width 0.35s;
+  pointer-events: none;
+}
+.btn.swipe-blue:hover {
+  color: #fff !important;
+  z-index: 2;
+  position: relative;
+}
+.btn.swipe-blue:hover:after {
+  width: 100%;
+}

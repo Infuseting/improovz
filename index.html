@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improovz</title>
+    <link rel="icon" href="/assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        @theme {
+            --color-primary: #008AFF;
+            --color-secondary: #FFFFFF;
+        }
+    </style>
+</head>
+<body>  
+    <div class="bg-radial-[at_20%_20%] from-blue-400 via-blue-200 to-white  min-h-screen pt-4">
+        <nav class="mx-auto w-fit rounded-3xl bg-white shadow-md p-4">
+            <div class="flex justify-center items-center">
+                <a href="#savoirfaire" class="text-xl mx-4 p-2 px-4 group font-bold text-anim">Notre savoir faire<div class="bg-primary h-[2px] w-0 group-hover:w-full transition-all duration-500"></div></a>
+                <a href="#real" class="text-xl mx-4 p-2 px-4 group font-bold text-anim">Realisations<div class="bg-primary h-[2px] w-0 group-hover:w-full transition-all duration-500"></div></a>
+                <a href="#avis" class="text-xl mx-4 p-2 px-4 group font-bold text-anim">Avis<div class="bg-primary h-[2px] w-0 group-hover:w-full transition-all duration-500"></div></a>
+                <a href="#prix" class="text-xl mx-4 p-2 px-4 group font-bold text-anim">Prix<div class="bg-primary h-[2px] w-0 group-hover:w-full transition-all duration-500"></div></a>      
+                <a href="/" class="btn mx-4 rounded-2xl bg-primary text-white shadow-md text-anim swipe-white"><span>Réserver un appel</span></a>      
+            </div>
+        </nav>
+        <div class="flex flex-col items-center justify-center text-center text-white flex-1 min-h-[calc(100vh-160px)] px-128">
+            <h1 class="text-7xl font-bold mb-4 island-moments-regular">Improovz</h1>
+            <h2 class="text-6xl mb-8"><strong>L’intelligence logicielle</strong> au service de vos <strong>ambitions</strong></h2>
+            <p class="text-2xl mb-8">Nous concevons, créons et installons pour les profesionnelles et les particuliers des sites internet, leur offrant une mise en avant sur Internet.</p>
+            <div>
+                <a href="#savoirfaire" class="btn rounded-2xl bg-primary text-white shadow-md text-anim swipe-white"><span>Découvrir nos services</span></a>
+                <a href="/" class="btn rounded-2xl bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Réserver un appel</span></a>
+            </div>
+            
+        </div>
+        <div id="savoirfaire" class="mx-auto w-full p-4 py-32">
+            <h2 class="text-4xl font-bold text-center mb-8">Notre savoir faire</h2>
+            <div class="grid grid-cols-12 grid-rows-8 gap-5 mx-64">
+                <div class="col-span-3 row-span-4 relative bg-white rounded-lg h-86 overflow-hidden">
+                    <img src="/assets/img/webdev.png" alt="Web Development" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0" />
+                    <div class="absolute inset-x-0 bottom-0 h-7/8 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
+                    <div class="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4 z-20">
+                        <h1 class="text-2xl font-bold mb-2">Développement Web</h1>
+                        <p class="text-lg">Création de sites web sur mesure, adaptés à vos besoins et optimisés pour les performances.</p>
+                    </div>
+                </div>
+                <div class="col-span-5 row-span-4 col-start-4  relative bg-white rounded-lg h-86 overflow-hidden">
+                    <img src="/assets/img/design.png" alt="Conception & Prototypage" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0" />
+                    <div class="absolute inset-x-0 bottom-0 h-7/8 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
+                    <div class="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4 z-20">
+                        <h1 class="text-2xl font-bold mb-2">Conception & Prototypage</h1>
+                        <p class="text-lg">Création de maquettes et prototypes interactifs pour visualiser et tester vos idées avant le développement.</p>
+                    </div>
+                </div>
+                <div class="col-span-4 row-span-4 col-start-9  relative bg-white rounded-lg h-86 overflow-hidden">
+                    <img src="/assets/img/hebergement.png" alt="Hébergement" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0" />
+                    <div class="absolute inset-x-0 bottom-0 h-7/8 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
+                    <div class="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4 z-20">
+                        <h1 class="text-2xl font-bold mb-2">Hébergement</h1>
+                        <p class="text-lg">Hébergement sécurisé et performant pour garantir la disponibilité et la rapidité de votre site web.</p>
+                    </div>
+                </div>
+                <div class="col-span-4 row-span-4 row-start-5  relative bg-white rounded-lg h-86 overflow-hidden">
+                    <img src="/assets/img/seo.png" alt="SEO" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0" />
+                    <div class="absolute inset-x-0 bottom-0 h-7/8 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
+                    <div class="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4 z-20">
+                        <h1 class="text-2xl font-bold mb-2">Mise en avant de votre site</h1>
+                        <p class="text-lg">Optimisation pour les moteurs de recherche afin d'améliorer la visibilité et le classement de votre site web.</p>
+                    </div>
+                </div>
+                <div class="col-span-3 row-span-4 col-start-5  relative bg-white rounded-lg h-86 overflow-hidden row-start-5">
+                    <img src="/assets/img/sav.png" alt="SAV" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0" />
+                    <div class="absolute inset-x-0 bottom-0 h-7/8 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
+                    <div class="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4 z-20">
+                        <h1 class="text-2xl font-bold mb-2">SAV</h1>
+                        <p class="text-lg">Assistance et support technique pour résoudre les problèmes et assurer le bon fonctionnement de votre site web.</p>
+                    </div>
+                </div>
+                <div class="col-span-5 row-span-4 col-start-8  relative bg-white rounded-lg h-86 overflow-hidden row-start-5">
+                    <img src="/assets/img/accompagnements.png" alt="Accompagnements" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0" />
+                    <div class="absolute inset-x-0 bottom-0 h-7/8 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
+                    <div class="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4 z-20">
+                        <h1 class="text-2xl font-bold mb-2">Accompagnements</h1>
+                        <p class="text-lg">Accompagnement personnalisé pour vous aider à atteindre vos objectifs en ligne, de la stratégie à l'exécution.</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <div id="real" class="mx-auto w-full p-4 py-32">
+            <h2 class="text-4xl font-bold text-center mb-8">Nos réalisations</h2>
+            <div class="flex justify-center flex-wrap gap-20">
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real1.png" alt="Portfolio Personnel" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Portfolio Personnel</h2>
+                        <a href="https://infuseting.fr/" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real2.png" alt="Ancien Site" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Ancien site d'improovz</h2>
+                        <a href="https://improovz.infuseting.fr" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real3.png" alt="Site de commande d'un fast food" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Site de commande de type fast-food</h2>
+                        <a href="https://github.com/Infuseting/SAE2456" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real4.png" alt="Emploie du temps universitaire" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Site d'emploie du temps scolaire</h2>
+                        <a href="https://edt.infuseting.fr/" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="avis" class="mx-auto w-full p-4 py-32">
+            <h2 class="text-4xl font-bold text-center mb-8">Nos réalisations</h2>
+            <div class="flex justify-center flex-wrap gap-20">
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real1.png" alt="Portfolio Personnel" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Portfolio Personnel</h2>
+                        <a href="https://infuseting.fr/" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real2.png" alt="Ancien Site" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Ancien site d'improovz</h2>
+                        <a href="https://improovz.infuseting.fr" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real3.png" alt="Site de commande d'un fast food" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Site de commande de type fast-food</h2>
+                        <a href="https://github.com/Infuseting/SAE2456" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+                <div class="carte w-96">
+                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real4.png" alt="Emploie du temps universitaire" class="w-full h-full object-cover"/></figure>
+                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
+                        <h2 class="text-xl title">Site d'emploie du temps scolaire</h2>
+                        <a href="https://edt.infuseting.fr/" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
