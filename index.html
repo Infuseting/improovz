@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  class="min-h-screen min-w-screen">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,8 +20,8 @@
         }
     </style>
 </head>
-<body>  
-    <div class="bg-radial-[at_20%_20%] from-blue-400 via-blue-200 to-white  min-h-screen pt-4">
+<body class="min-h-screen min-w-screen">
+    <div class="bg-radial-[at_20%_20%] from-blue-400 via-blue-200 to-white  min-h-screen min-w-screen pt-4">
         <nav class="mx-auto w-fit rounded-3xl bg-white shadow-md p-4">
             <div class="flex justify-center items-center">
                 <a href="#savoirfaire" class="text-xl mx-4 p-2 px-4 group font-bold text-anim">Notre savoir faire<div class="bg-primary h-[2px] w-0 group-hover:w-full transition-all duration-500"></div></a>
@@ -129,36 +129,89 @@
             </div>
         </div>
         <div id="avis" class="mx-auto w-full p-4 py-32">
-            <h2 class="text-4xl font-bold text-center mb-8">Nos réalisations</h2>
-            <div class="flex justify-center flex-wrap gap-20">
-                <div class="carte w-96">
-                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real1.png" alt="Portfolio Personnel" class="w-full h-full object-cover"/></figure>
-                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
-                        <h2 class="text-xl title">Portfolio Personnel</h2>
-                        <a href="https://infuseting.fr/" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+            <h2 class="text-4xl font-bold text-center mb-8">Avis de nos clients</h2>
+            <div class="flex justify-center flex-wrap gap-20 ">
+                <div class="card flex flex-col px-4 border-1 bg-white max-w-1/5 rounded-xl">
+                    <div class="rating py-2 mx-auto my-2">
+                        <div class="mask mask-star" aria-label="1 star"></div>
+                        <div class="mask mask-star" aria-label="2 star"></div>
+                        <div class="mask mask-star" aria-label="3 star"></div>
+                        <div class="mask mask-star" aria-label="4 star"></div>
+                        <div class="mask mask-star" aria-label="5 star" aria-current="true"></div>
+
+                    </div>
+                    <div class="my-2">
+                        <p class="text-justify">Developpeur prestataire depuis 4 ans qui a forgé la partie technique de notre serveur en êtant appliqué dans le projet, a participé et a conseillé parfaitement pour les choix que nous avons effectué</p>
+                    </div>
+                    <div class="flex items-center gap-5 bottom-0 my-2 mt-auto">
+                        <img style="width: 32px; height:32px;" class="rounded-full object-cover" src="/assets/img/1.png" alt="avatar">
+                        <div class="grid gap-1">
+                            <h5 class="text-gray-900 font-medium transition-all duration-500 group-hover:text-indigo-600 swiper-slide-active:text-indigo-600">
+                                Galade </h5>
+                            <span class="text-sm leading-6 text-gray-500"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="carte w-96">
-                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real2.png" alt="Ancien Site" class="w-full h-full object-cover"/></figure>
-                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
-                        <h2 class="text-xl title">Ancien site d'improovz</h2>
-                        <a href="https://improovz.infuseting.fr" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+
+                <div class="card flex flex-col px-4 border-1 bg-white max-w-1/5 rounded-xl">
+                    <div class="rating py-2 mx-auto my-2">
+                        <div class="mask mask-star" aria-label="1 star"></div>
+                        <div class="mask mask-star" aria-label="2 star"></div>
+                        <div class="mask mask-star" aria-label="3 star"></div>
+                        <div class="mask mask-star" aria-label="4 star"></div>
+                        <div class="mask mask-star" aria-label="5 star" aria-current="true"></div>
+
+                    </div>
+                    <div class="my-2">
+                        <p class="text-justify">
+                            Site de qualité, bien conçu et responsive, parfait pour gérer notre clientèle facilement ! Prestataire attentif, efficace et répondant parfaitement aux attentes.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-5 bottom-0 my-2 mt-auto">
+                        <img style="width: 32px; height:32px;" class="rounded-full object-cover" src="/assets/img/0.png" alt="avatar">
+                        <div class="grid gap-1">
+                            <h5 class="text-gray-900 font-medium transition-all duration-500 group-hover:text-indigo-600 swiper-slide-active:text-indigo-600">
+                                InvasionZ </h5>
+                            <span class="text-sm leading-6 text-gray-500"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="carte w-96">
-                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real3.png" alt="Site de commande d'un fast food" class="w-full h-full object-cover"/></figure>
-                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
-                        <h2 class="text-xl title">Site de commande de type fast-food</h2>
-                        <a href="https://github.com/Infuseting/SAE2456" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+            </div>
+        </div>
+        <div id="why" class="mx-auto w-full p-4 py-32">
+            <h2 class="text-4xl font-bold text-center mb-8">Nous <strong class="text-primary">révolutionnons</strong> la manière de <strong class="text-primary">créer</strong> votre site jusqu’a sa <strong class="text-primary">mise en avant</strong> sur Internet</h2>
+            <div class="flex justify-center flex-wrap gap-20 ">
+                 <div class="flex flex-col border-1 rounded-xl bg-white max-w-1/5 p-4">
+                     <div>
+                         <img src="/assets/img/why1.png" alt="regle" class="w-16 h-16">
+                     </div>
+                     <div class="mx-2">
+                         <h1 class="text-4xl">Offre sur-mesure</h1>
+                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.</p>
+                     </div>
+                 </div>
+                <div class="flex flex-col border-1 rounded-xl bg-white max-w-1/5 p-4">
+                    <div>
+                        <img src="/assets/img/why1.png" alt="argent" class="w-16 h-16">
+                    </div>
+                    <div class="mx-2">
+                        <h1 class="text-4xl">Prix compétitif</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.</p>
                     </div>
                 </div>
-                <div class="carte w-96">
-                    <figure class="w-full h-64 overflow-hidden"><img src="/assets/img/real4.png" alt="Emploie du temps universitaire" class="w-full h-full object-cover"/></figure>
-                    <div class="flex flex-row flex-nowrap items-center justify-between p-4">
-                        <h2 class="text-xl title">Site d'emploie du temps scolaire</h2>
-                        <a href="https://edt.infuseting.fr/" class="btn bg-transparent border-black border-2 text-black shadow-md text-anim swipe-blue"><span>Découvrir</span></a>
+            </div>
+        </div>
+        <div id="prix" class="mx-auto w-full p-4 py-32">
+            <h2 class="text-4xl font-bold text-center mb-8">Un <strong class="text-primary">prix</strong> pour tous les <strong class="text-primary">budgets</strong></h2>
+            <div class="flex justify-center flex-wrap gap-20 ">
+                <div class="flex flex-col border-1 rounded-xl bg-white max-w-1/5 min-w-1/5 p-4">
+
+                    <div class="mx-2">
+                        <h1 class="text-4xl">Site vitrine</h1>
+                        <p>À partir de 750€</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
